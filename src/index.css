@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.image img{
+     width:150px;
+
+}
+
+.temp,
+.country,
+.city{
+   
+    text-align: center;
+    font-weight: bolder;
+    margin: 10px;
+
+
+
+}
+
+.city{
+    color:orange;
+    font-size: x-large;
+}
+
+.cord{
+    display:flex;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+.cord div{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.cord div span{
+    font-size: 14px;
+}
+
+.data{
+    display:flex;
+    font-weight: bolder;
+    justify-content:space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    text-align: center;
+   
+    
+}
+
+.data div{
+     display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
