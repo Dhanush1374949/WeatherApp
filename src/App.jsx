@@ -60,7 +60,7 @@ const Weather=({icon,temp,city,country,lat,long,humi,wind})=> {
 
 
 function App() {
-  let apiKey="84633b4f9f13ed57e0751be347d8f8c9"
+  let apiKey="Add_your_api_from_wether_api"
    const[text,setText]=useState("Chennai");
    const[icon,setIcon]=useState(diszzeIcon);
    const[temp,setTemp]=useState(0);
